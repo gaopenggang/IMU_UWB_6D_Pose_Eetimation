@@ -1,0 +1,7 @@
+<launch>
+  <group ns="uwb">
+   <remap from="/imu/data_xsens" to="/uwb/imu/data_xsens"/> 
+   <remap from="/nlink_linktrack_nodeframe2" to="/uwb/nlink_linktrack_nodeframe2"/> 
+  <node pkg="rosbag" type="play" name="playe" output="screen" args="/media/cuhk/E/20210621/bag2/2021-06-21-14-44-55_0.bag"/>
+ </group>
+</launch>

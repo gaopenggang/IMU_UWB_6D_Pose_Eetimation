@@ -1,0 +1,6 @@
+<launch>
+    <param name="data_dir_path" type="string" value="/home/xc/2021-0916/result_data"/>
+    <node pkg="imu_uwb"  type="ground_truth_node"  name="ground_truth_node"  output="screen"></node>
+    <node pkg="imu_uwb"  type="visualise_map_node"  name="visualise_map_node"  output="screen"></node> 
+    <node pkg="imu_uwb"  type="imu_uwb_localization_node"  name="imu_uwb_localization_node"  output="screen"></node>
+</launch>

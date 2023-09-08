@@ -1,0 +1,8 @@
+gyro_noise: 0.01
+acc_noise: 0.28
+gyro_bias_noise: 0.0000001
+acc_bias_noise: 0.02
+uwb_noise: 0.3
+trajectory_noise: 0.2
+non_hol_noise_z: 0.05
+
